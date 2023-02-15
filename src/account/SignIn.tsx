@@ -70,11 +70,13 @@ const SignIn = () => {
                         }}>
                             I'm a new user.{" "}
                         </Text>
-                        <Link _text={{
+                        <Link onPress={()=>{
+                            navigation.navigate("SignUp" as never)
+                        }} _text={{
                             color: "indigo.500",
                             fontWeight: "medium",
                             fontSize: "sm"
-                        }} href="#">
+                        }}>
                             Sign Up
                         </Link>
                     </HStack>
