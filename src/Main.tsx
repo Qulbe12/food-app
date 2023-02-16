@@ -1,10 +1,10 @@
 import React from 'react';
-import SignIn from "./account/SignIn";
+import SignIn from "./pages/authentication/SignIn";
 import { createStackNavigator } from "@react-navigation/stack";
-import UserAddress from "./account/UserAddress";
-import UserInfo from "./account/UserInfo";
-import UserCardInfo from "./account/UserCarsdInfo";
-import SignUp from "./account/SignUp";
+import UserAddress from "./pages/authentication/UserAddress";
+import UserInfo from "./pages/authentication/UserInfo";
+import UserCardInfo from "./pages/authentication/UserCarsdInfo";
+import SignUp from "./pages/authentication/SignUp";
 
 const Main = () => {
     const Stack = createStackNavigator()

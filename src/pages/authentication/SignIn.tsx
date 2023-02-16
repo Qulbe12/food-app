@@ -11,7 +11,6 @@ import {
     Input,
     Link, ScrollView,
     Text,
-    View,
     VStack
 } from "native-base";
 import { Ionicons } from "@expo/vector-icons";
